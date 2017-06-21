@@ -1,0 +1,19 @@
+{
+  "name": "scaffolding",
+  "version": "0.0.1",
+  "description": "crud scaffolding.",
+  "preferGlobal": "true",
+  "bin": {
+    "appfx": "bin/crud-scaffolder.js"
+  },
+  "author": "Vlad",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fs-extra": "^3.0.1",
+    "ncp": "^2.0.0",
+    "rimraf": "^2.6.1"
+  }
+}

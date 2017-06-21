@@ -1,0 +1,12 @@
+You should have a folder named models in the current directory(the root of the new project) containing javascript files, each containing a model.
+The name of the file doesn't matter.The file format should be as follows:
+
+var obj = {
+   Hero : {
+     name: 'String',
+     id: 'String'
+  }
+};
+
+module.exports = obj;
+
